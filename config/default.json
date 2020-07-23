@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://sunny:sunny@cluster0.hmog6.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://sunny:sunny@cluster0.hmog6.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
