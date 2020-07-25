@@ -9,7 +9,7 @@ const router = express.Router();
 const User = require("../../models/User");
 
 // @route  GET api/auth
-// @desc   Test route
+// @desc   Getting User Details using Token
 // @access Public
 router.get("/", auth, async (req, res) => {
   try {
@@ -22,7 +22,7 @@ router.get("/", auth, async (req, res) => {
 });
 
 // @route  POST api/auth
-// @desc   Authenticate user & get token
+// @desc   Authenticate user & get token | User Login
 // @access Public
 router.post(
   "/",
